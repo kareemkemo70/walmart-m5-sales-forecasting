@@ -1,0 +1,81 @@
+artifact_path: file:c:/Users/AHMAD/Desktop/data final project colledge/Depi M5/notebooks/mlruns/1/models/m-9fd548b885654f669c0e2deaa6930157/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.14.2
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+is_signature_from_type_hint: false
+mlflow_version: 3.14.0
+model_id: m-9fd548b885654f669c0e2deaa6930157
+model_size_bytes: 2617801
+model_uuid: m-9fd548b885654f669c0e2deaa6930157
+prompts: null
+run_id: fc4b89ae37bb431484f130bad1363804
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "long", "name": "wm_yr_wk", "required": true}, {"type": "long",
+    "name": "wday", "required": true}, {"type": "long", "name": "month", "required":
+    true}, {"type": "long", "name": "year", "required": true}, {"type": "long", "name":
+    "snap_CA", "required": true}, {"type": "long", "name": "quarter", "required":
+    true}, {"type": "long", "name": "is_weekend", "required": true}, {"type": "double",
+    "name": "lag_1", "required": true}, {"type": "double", "name": "lag_7", "required":
+    true}, {"type": "double", "name": "lag_28", "required": true}, {"type": "double",
+    "name": "rolling_mean_7", "required": true}, {"type": "double", "name": "rolling_mean_28",
+    "required": true}, {"type": "double", "name": "rolling_std_7", "required": true},
+    {"type": "long", "name": "weekday_Monday", "required": true}, {"type": "long",
+    "name": "weekday_Saturday", "required": true}, {"type": "long", "name": "weekday_Sunday",
+    "required": true}, {"type": "long", "name": "weekday_Thursday", "required": true},
+    {"type": "long", "name": "weekday_Tuesday", "required": true}, {"type": "long",
+    "name": "weekday_Wednesday", "required": true}, {"type": "long", "name": "event_name_1_Christmas",
+    "required": true}, {"type": "long", "name": "event_name_1_Cinco De Mayo", "required":
+    true}, {"type": "long", "name": "event_name_1_ColumbusDay", "required": true},
+    {"type": "long", "name": "event_name_1_Easter", "required": true}, {"type": "long",
+    "name": "event_name_1_Eid al-Fitr", "required": true}, {"type": "long", "name":
+    "event_name_1_EidAlAdha", "required": true}, {"type": "long", "name": "event_name_1_Father''s
+    day", "required": true}, {"type": "long", "name": "event_name_1_Halloween", "required":
+    true}, {"type": "long", "name": "event_name_1_IndependenceDay", "required": true},
+    {"type": "long", "name": "event_name_1_LaborDay", "required": true}, {"type":
+    "long", "name": "event_name_1_LentStart", "required": true}, {"type": "long",
+    "name": "event_name_1_LentWeek2", "required": true}, {"type": "long", "name":
+    "event_name_1_MartinLutherKingDay", "required": true}, {"type": "long", "name":
+    "event_name_1_MemorialDay", "required": true}, {"type": "long", "name": "event_name_1_Mother''s
+    day", "required": true}, {"type": "long", "name": "event_name_1_NBAFinalsEnd",
+    "required": true}, {"type": "long", "name": "event_name_1_NBAFinalsStart", "required":
+    true}, {"type": "long", "name": "event_name_1_NewYear", "required": true}, {"type":
+    "long", "name": "event_name_1_None", "required": true}, {"type": "long", "name":
+    "event_name_1_OrthodoxChristmas", "required": true}, {"type": "long", "name":
+    "event_name_1_OrthodoxEaster", "required": true}, {"type": "long", "name": "event_name_1_Pesach
+    End", "required": true}, {"type": "long", "name": "event_name_1_PresidentsDay",
+    "required": true}, {"type": "long", "name": "event_name_1_Purim End", "required":
+    true}, {"type": "long", "name": "event_name_1_Ramadan starts", "required": true},
+    {"type": "long", "name": "event_name_1_StPatricksDay", "required": true}, {"type":
+    "long", "name": "event_name_1_SuperBowl", "required": true}, {"type": "long",
+    "name": "event_name_1_Thanksgiving", "required": true}, {"type": "long", "name":
+    "event_name_1_ValentinesDay", "required": true}, {"type": "long", "name": "event_name_1_VeteransDay",
+    "required": true}, {"type": "long", "name": "event_type_1_National", "required":
+    true}, {"type": "long", "name": "event_type_1_None", "required": true}, {"type":
+    "long", "name": "event_type_1_Religious", "required": true}, {"type": "long",
+    "name": "event_type_1_Sporting", "required": true}, {"type": "long", "name": "event_name_2_Easter",
+    "required": true}, {"type": "long", "name": "event_name_2_Father''s day", "required":
+    true}, {"type": "long", "name": "event_name_2_None", "required": true}, {"type":
+    "long", "name": "event_name_2_OrthodoxEaster", "required": true}, {"type": "long",
+    "name": "event_type_2_None", "required": true}, {"type": "long", "name": "event_type_2_Religious",
+    "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-07-07 00:14:11.909659'
