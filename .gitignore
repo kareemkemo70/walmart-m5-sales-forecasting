@@ -1,0 +1,5 @@
+# Large Walmart M5 datasets
+data/raw/sales_train_evaluation.csv
+data/raw/sales_train_validation.csv
+data/raw/sell_prices.csv
+data/processed/sales_long.parquet
